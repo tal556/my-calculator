@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(64, 204, 223);
+    outline: none;
+}
+button:hover{
+    opacity: 0.9;
+}
+.btnColor{
+    background-color: rgb(103, 247, 199);
+    /* padding: 0;
+    margin: 0; */
+    border: none;
+    
+}
+.btnColor:hover{
+    background-color: rgba(127, 255, 212, 0.904);
+}
+#equal{
+    background-color: rgb(58, 58, 190);
+}
+
+
+.main-container{
+    width: 100%;
+    height: auto;
+    
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 25vw;
+    height: 40vh;
+    border-radius: 4px;
+    /* max-width: 1000px; */
+    background-color: rgb(13, 33, 71);
+    display: grid;
+    gap: 4px;
+    padding: 4px;
+    margin: 1rem 2rem;
+    grid-template-areas:
+    'header header header header '
+    'header2 header2 header2 header2'
+    'plus minus multi devide'
+    ' btn1 btn2 btn3 equal '
+    ' btn4 btn5 btn6 equal '
+    ' btn7 btn8 btn9 equal '
+     'btn0 dot clear  equal '
+    
+    ;
+}
+
+#inputElement2{
+    background: #fff;
+}
+
+
+#inputElement { grid-area: header; }
+#inputElement2 { grid-area: header2; }
+#plus { grid-area: plus; }
+#minus { grid-area: minus; }
+#multiply { grid-area: multi; }
+#devide { grid-area: devide; }
+
+#equal { grid-area: equal; }
+#dot { grid-area: dot; }
+#clear { grid-area: clear; }
+
+#button0 { grid-area: btn0; }
+#button1 { grid-area: btn1; }
+#button2 { grid-area: btn2; }
+#button3 { grid-area: btn3; }
+#button4 { grid-area: btn4; }
+#button5 { grid-area: btn5; }
+#button6 { grid-area: btn6; }
+#button7 { grid-area: btn7; }
+#button8 { grid-area: btn8; }
+#button9 { grid-area: btn9; }
+
+ span{
+    font-size: 20px;
+    
+
+}
+#inputElement{
+    background-color: #ffffff;
+    font-size: large;
+}
